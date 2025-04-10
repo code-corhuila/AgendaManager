@@ -5,7 +5,7 @@ pipeline {
     environment {
        DATE_NOW=''
        DOCKER_TAG ="($DATE_NOW.$BUILD_NUMBER | head -c 8)" 
-       REPOSITORY_URI="AgendaManager"
+       REPOSITORY_URI="backend-agenda"
        REPOSITORY_URI_APP=""
     }
     stages {
