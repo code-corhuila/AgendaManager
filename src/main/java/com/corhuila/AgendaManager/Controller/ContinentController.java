@@ -9,7 +9,7 @@ import com.corhuila.AgendaManager.IService.IContinentService;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("api/continent")
+@RequestMapping("v1.api/continent")
 public class ContinentController extends ABaseController<Continent, IContinentService> {
     public ContinentController(IContinentService service) {
         super(service, "Continent");
