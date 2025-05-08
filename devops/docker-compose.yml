@@ -6,7 +6,7 @@ services:
     build: 
       context: ../
     ports:  
-    - "9002:9002"
+    - "9001:9001"
     networks:
     - network_local_server
 networks:

@@ -3,8 +3,8 @@ package com.corhuila.AgendaManager.Entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "state")
-public class State extends ABaseEntity{
+@Table(name = "estate")
+public class Estate extends ABaseEntity{
 
     @Column(name = "code", nullable = false , length = 20)
     private String code;
