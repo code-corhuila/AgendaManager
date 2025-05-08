@@ -17,5 +17,5 @@ public class City extends ABaseEntity{
 
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "state_id", nullable = false, unique = true)
-    private State stateId;
+    private Estate stateId;
 }

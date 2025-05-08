@@ -1,7 +1,7 @@
 spring.application.name=AgendaManager
 
 # Server configuration
-server.port=9002
+server.port=9001
 
 # spring.jpa.hibernate.ddl-auto: specifies the strategy for creating and dropping database tables
 spring.jpa.hibernate.ddl-auto = create-drop
